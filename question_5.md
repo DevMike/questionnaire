@@ -5,7 +5,7 @@ SELECT name, age FROM users;
 Give me the name and organization of all employees:
 
 SELECT users.name, organizations.name FROM users
-JOIN organizations ON users.org_id = organizations.id
+JOIN organizations ON users.org_id = organizations.id;
 
 Give me the oldest person at each organization:
 
