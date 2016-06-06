@@ -1,0 +1,2 @@
+Java accepts only String parameter, so if you pass another type object it will raise exception, otherwise it will return boolean
+Ruby will work with any type and will return boolean value if there is no exception

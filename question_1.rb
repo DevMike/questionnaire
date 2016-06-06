@@ -1,0 +1,1 @@
+['a','a','b'].group_by{|v| v}.tap{|h| h.each{|k,v| h[k]=v.size } }
